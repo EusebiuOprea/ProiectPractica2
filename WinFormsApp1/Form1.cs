@@ -114,7 +114,7 @@ namespace ImageEditor
 
 
 
-        private void btnCrop_Click(object sender, EventArgs e)
+       /* private void btnCrop_Click(object sender, EventArgs e)
         {
             if (originalImage != null)
             {
@@ -126,7 +126,7 @@ namespace ImageEditor
                 // editedImage = new Image<Bgr, byte>(originalImage.Bitmap).GetSubRect(rect);
                 pictureBox.Image = editedImage.ToBitmap();
             }
-        }
+        }*/
 
         private void trackBarBrightness_Scroll(object sender, EventArgs e)
         {
